@@ -1,2 +1,17 @@
-# mtumishi-paulo
-karibu kwenye tovuti Rasmi ya mtumishi Paulo,kwa ushauri wa kiimani (christianity) na msaada! Technolojia ya Habari na mawasiliano na mambo mengine kibao....
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <title>Mtumishi Paulo</title>
+    <style>
+        body { text-align: center; font-family: Arial; background: #f0f8ff; padding: 50px; }
+        h1 { color: #2c3e50; }
+        p { font-size: 18px; }
+    </style>
+</head>
+<body>
+    <h1>Karibu Mtumishi Paulo 🙏</h1>
+    <p>Hii ni tovuti yangu rasmi</p>
+    <img src="paulo.jpg" width="300">
+</body>
+</html>
