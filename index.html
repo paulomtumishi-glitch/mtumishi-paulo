@@ -1,312 +1,117 @@
- <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="sw">
 <head>
-    <title>Mtumishi Paulo website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mtumishi Paulo - Tovuti Rasmi</title>
     <style>
-body {
-    background-color: #f0f8ff;
-    text-align: center;
-    margin: 0;
-    font-family: Arial;
-}
-h1 { color: #003366; }
-
-.menu {
-    background-color: #cc0000;
-    padding: 15px;
-    position: sticky;
-    top: 0;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    z-index: 100;
-}
-.menu a {
-    color: white;
-    text-decoration: none;
-    margin: 0 20px;
-    font-size: 18px;
-    font-weight: bold;
-}
-.menu a:hover {
-    color: #ffcc00;
-}
-
-.sehemu {
-    padding: 40px;
-    margin: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-#nyumbani { background-color: #E6F7FF; }
-#kuhusu { background-color: #FFF9E6; }
-#gallery { background-color: #f0f0f0; }
-#mawasiliano { background-color: #E6FFE6; }
-        }paulo1.jpg{
-    width: 300px;
-    height: 200px;
-    border-radius: 20px;
-    border: 5px solid #cc0000;
-    object-fit: cover;
-}
-<a href="https://youtube.com/@MtumishiPaulo5816" target="_blank" style="background:red; color:white; padding:15px 25px; text-decoration:none; border-radius:8px; font-weight:bold;">
-  JIUNGE NASI YOUTUBE</a>
-</a>
-button {
-    background-color: #003366;
-    color: white;
-    padding: 12px 25px;
-    font-size: 18px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-button:hover {
-    background-color: #cc0000;
-    transform: scale(1.1);
-}
-
-footer {
-    background-color: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 30px;
-    margin-top: 40px;
-}
-footer.mitandao a {
-    color: #d4af37;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-/* GALLERY */
-.grid-ya-picha {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 15px;
-    margin-top: 20px;
-}
-.grid-ya-picha img {
-    width: 100%; height: 220px; object-fit: cover; border-radius: 10px;
-    cursor: pointer; transition: 0.3s; box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-.grid-ya-picha img:hover { transform: scale(1.05); }
-
-/* DIRISHA */
-.dirisha {
-    display: none; position: fixed; z-index: 1000; left: 0; top: 0;
-    width: 100%; height: 100%; background-color: rgba(0,0,0,0.9);
-}
-.maudhui-ya-dirisha {
-    margin: auto; display: block; max-width: 90%; max-height: 80%; margin-top: 5%; border-radius: 10px;
-}
-.funga {
-    position: absolute; top: 20px; right: 35px; color: white; font-size: 40px; font-weight: bold; cursor: pointer;
-}
-
-/* SLIDESHOW */
-.slideshow {
-    position: relative;
-    max-width: 800px;
-    margin: 40px auto;
-    border-radius: 20px;
-    overflow: hidden;
-}
-.slideshow img.picha {
-    width: 100%;
-    display: none;
-}
-.slideshow img.picha.inayoonekana {
-    display: block;
-}
-.slideshow button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(212, 175, 55, 0.8);
-    color: white;
-    border: none;
-    font-size: 30px;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 50%;
-}
-.slideshow.mbele { right: 20px; }
-.slideshow.nyuma { left: 20px; }
-
-/* FOMU */
-#fomuYaMawasiliano {
-    max-width: 500px;
-    margin: 30px auto;
-    text-align: left;
-}
-#fomuYaMawasiliano input,
-#fomuYaMawasiliano textarea {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    font-size: 16px;
-    box-sizing: border-box;
-}
-.mitandao a {
-    color: #d4af37; /* Rangi ya dhahabu */
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 18px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-.mitandao a:hover {
-    color: #ffcc00;
-    text-decoration: underline;
-    transform: scale(1.1);
-}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fdf8f0; /* Rangi ya cream/takatifu */
+            color: #2c3e50; /* Rangi ya bluu ya kina */
+            text-align: center;
+        } 
+        .container {
+            color: #d4af37; /* Rangi ya dhahabu kwa majina makubwa */
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-top: 4px solid #d4af37; /* Mstari wa dhahabu juu */  
+        }
+        img {
+            width: 250px;
+            border-radius: 50%;
+            border: 5px solid #FFD700;
+            margin-top: 20px;
+        }
+        h1 {
+            color: #FFD700;
+        }
+        .section {
+            background: #fdf8f0;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .whatsapp-btn {
+            background: #25D366;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
+    <div class="container">
+        <!-- BANNER MPYA -->
+        <img src="paulo1.jpg" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px; margin-bottom: 30px;" alt="Banner ya Mtumishi Paulo">
+        
+        <p style="font-size: 1.2em;">Muinjilist | Mhubiri | Mtumishi wa Mungu</p>
+        <h1>Karibu kwa Tovuti ya Mtumishi Paulo 🙏</h1>
+        
+        <!-- PICHA YAKO YA DUARA -->
+        <img src="paulo1.jpg" alt="Picha ya Mtumishi Paulo">
+        
+        <!-- KITUFE CHA YOUTUBE -->
+        <div style="margin-top:20px;">
+            <a href="https://youtube.com/@MtumishiPaulo" target="_blank" style="background-color:#ff0000; color:white; padding:15px 25px; text-decoration:none; border-radius:8px; font-weight:bold; display:inline-block;">
+                JIUNGE NASI YOUTUBE
+            </a>
+        </div>
 
-    <div class="menu">
-        <a href="#nyumbani">Nyumbani</a>
-        <a href="#kuhusu">Kuhusu Mimi</a>
-        <a href="#gallery">Gallery</a> <!-- NILIONGEZA HII -->
-        <a href="#mawasiliano">Mawasiliano</a>
-    </div>
+        <div class="section">
+            <h2>Kuhusu Mimi</h2>
+            <p>Karibu kwenye tovuti yangu rasmi. Mimi ni Mtumishi Paulo. Lengo langu ni kumtumikia Mungu kwa kuwasaidia watu kupitia Neno na huduma mbalimbali.</p>
+        </div>
 
-    <div id="nyumbani" class="sehemu">
-        <img src="paulo.jpg" class="picha-yangu" alt="Picha ya Paulo">
-        <h1>Hujambo! Mimi ni Mtumishi Paulo</h1>
-        <p>Karibu kwenye tovuti yangu ya kwanza 😺</p>
-        <p>Ninaishi Kijijini Manga Kibaoni. Napenda kujifunza teknolojia.</p>
-    </div>
+        <div class="section">
+            <h2>Huduma Zangu</h2>
+            <p>1. Uinjilisti na Mahubiri <br>
+               2. Ushauri wa Kiroho <br>
+               3. Maombi na Maombezi<br>
+               4. Misaada ya Kibinaadam</p>
+        </div>
 
-    <div class="slideshow">
-        <ibada1.jpg">
-        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800" class="picha">
-        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800" class="picha">
-        <button class="nyuma"><</button>
-        <button class="mbele">></button>
-    </div>
+        <div class="section">
+            <h2>Gallery Yangu</h2>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+                
+                <a href="paulo1.jpg" target="_blank">
+                    <img src="paulo1.jpg" style="width: 100%; border-radius: 10px; cursor: pointer;" alt="Picha yangu">
+                </a>
 
-    <div id="kuhusu" class="sehemu">
-        <h1>Kuhusu Mimi</h1>
-        <p>Mimi ni mtu anayependa kujifunza vitu vipya. Lengo langu ni kutumia teknolojia kuwasaidia watu.</p>
-    </div>
+                <a href="ibada1.jpg" target="_blank">
+                    <img src="ibada1.jpg" style="width: 100%; border-radius: 10px; cursor: pointer;" alt="Ibada ya Jumapili">
+                </a>
 
-    <!-- GALLERY YAKO IMEKUJA HAPA -->
-    <div id="gallery" class="sehemu">
-        <h1>Gallery Yangu</h1>
-        <p>Matukio, Huduma na Nyakati za Kibaraka</p>
+                <!-- ONGEZA PICHA ZAIDI HAPA -->
+                <a href="picha3.jpg" target="_blank">
+                    <img src="picha3.jpg" style="width: 100%; border-radius: 10px; cursor: pointer;" alt="Picha nyingine">
+                </a>
 
-        <div class="grid-ya-picha">
-            <img src="https://i.ibb.co/BV6k1bZk/paulo1.jpg" alt="Mtumishi Paulo" onclick="funguaPicha(this.src)">
-            <img src="https://images.unsplash.com/photo-1507692049790-cbda4a8b9cf5?w=600" alt="Kusali" onclick="funguaPicha(this.src)">
-            <img src="https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=600" alt="Bible" onclick="funguaPicha(this.src)">
-            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600" alt="Semina" onclick="funguaPicha(this.src)">
-            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600" alt="Bahari" onclick="funguaPicha(this.src)">
-            <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=600" alt="Mlima" onclick="funguaPicha(this.src)">
-            <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=600" alt="Msitu" onclick="funguaPicha(this.src)">
-            <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=600" alt="Maua" onclick="funguaPicha(this.src)">
-            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600" alt="Jamii" onclick="funguaPicha(this.src)">
-            <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?w=600" alt="Watu Wanasali" onclick="funguaPicha(this.src)">
-            <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600" alt="Watu Pamoja" onclick="funguaPicha(this.src)">
-            <img src="https://images.unsplash.com/photo-1532635241-17e820acc59f?w=600" alt="Matumaini" onclick="funguaPicha(this.src)">
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Mawasiliano</h2>
+            <p>Unataka kuzungumza nami? Nifuate hapa</p>
+            
+            <a href="https://wa.me/255627091626" class="whatsapp-btn" target="_blank">💬 WhatsApp</a>
+            
+            <div style="margin-top: 20px;">
+                <a href="https://facebook.com/MtumishiPaulo" target="_blank" style="color: #1877F2; margin: 0 10px; text-decoration: none; font-weight: bold;">Facebook</a>
+                <a href="https://instagram.com/MtumishiPaulo" target="_blank" style="color: #E4405F; margin: 0 10px; text-decoration: none; font-weight: bold;">Instagram</a>
+                <a href="https://tiktok.com/@MtumishiPaulo" target="_blank" style="color: #000; margin: 0 10px; text-decoration: none; font-weight: bold;">TikTok</a>
+            </div>
+            
+            <p style="margin-top: 20px;">Email: paulomtumish@gmail.com</p>
         </div>
     </div>
-
-    <!-- DIRISHA LINAPOPANUKA -->
-    <div id="dirishaPicha" class="dirisha">
-        <span class="funga" onclick="fungaPicha()">&times;</span>
-        <img class="maudhui-ya-dirisha" id="pichaKubwa">
-    </div>
-
-    <div id="mawasiliano" class="sehemu">
-        <h1>Niwasiliane</h1>
-        <p>Ninafurahi kusikia kutoka kwako! ❤️</p>
-
-        <form id="fomuYaMawasiliano">
-            <input type="text" id="jina" placeholder="Jina lako kamili" required>
-            <input type="email" id="email" placeholder="Email yako" required>
-            <textarea id="ujumbe" placeholder="Andika ujumbe wako hapa..." rows="5" required></textarea>
-            <button type="submit">Tuma Ujumbe</button>
-        </form>
-        <p id="mujibu" style="display:none; color:green; font-weight:bold;">
-            Asante! Ujumbe wako umepokelewa 🙏
-        </p>
-    </div>
-
-    <footer>
-<footer>
-<footer>
-    <h3>Nifuatilie Kwenye Mitandao</h3>
-    <div class="mitandao">
-        <a href="https://wa.me/255627091626" target="_blank">📱 WhatsApp</a> |
-        <a href="https://facebook.com/MtumishiPaulo" target="_blank">📘 Facebook</a> |
-        <a href="https://instagram.com/MtumishiPaulo" target="_blank">📷 Instagram</a> |
-        <a href="https://tiktok.com/@MtumishiPaulo" target="_blank">🎵 TikTok</a>
-    </div>
-    <p style="margin-top: 20px;">Nipigie: 0657 474 226</p>
-    <p>📧 paulomtumishi@gmail.com</p>
-    <p class="sw" style="margin-top:15px;">© 2026 Mtumishi Paulo. Haki Zote Zimehifadhiwa.</p>
-</footer>
-</footer>
-    </footer>
-
-    <button id="rudiJuu" style="display:none; position:fixed; bottom:20px; right:30px;">⬆</button>
-
-<script>
-    // SLIDESHOW
-    let pichaZote = document.querySelectorAll(".slideshow img.picha");
-    let nambaYaPicha = 0;
-    function onyeshaPicha(n) {
-        pichaZote.forEach(picha => picha.classList.remove("inayoonekana"));
-        pichaZote[n].classList.add("inayoonekana");
-    }
-    document.querySelector(".mbele").onclick = function() {
-        nambaYaPicha = (nambaYaPicha + 1) % pichaZote.length;
-        onyeshaPicha(nambaYaPicha);
-    }
-    document.querySelector(".nyuma").onclick = function() {
-        nambaYaPicha = (nambaYaPicha - 1 + pichaZote.length) % pichaZote.length;
-        onyeshaPicha(nambaYaPicha);
-    }
-    setInterval(function() {
-        document.querySelector(".mbele").click();
-    }, 4000);
-
-    // GALLERY
-    function funguaPicha(src) {
-        document.getElementById("dirishaPicha").style.display = "block";
-        document.getElementById("pichaKubwa").src = src;
-    }
-    function fungaPicha() {
-        document.getElementById("dirishaPicha").style.display = "none";
-    }
-
-    // FOMU
-    document.getElementById("fomuYaMawasiliano").onsubmit = function(e) {
-        e.preventDefault();
-        document.getElementById("mujibu").style.display = "block";
-        document.getElementById("fomuYaMawasiliano").reset();
-        setTimeout(function(){
-            document.getElementById("mujibu").style.display = "none";
-        }, 4000);
-    }
-
-    // RUDI JUU
-    let btnRudiJuu = document.getElementById("rudiJuu");
-    window.onscroll = function() {
-        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-            btnRudiJuu.style.display = "block";
-        } else {
-            btnRudiJuu.style.display = "none";
-        }
-    };
-    btnRudiJuu.onclick = function() {
-        window.scrollTo({top: 0, behavior: 'smooth'});
-    }
-</script>
-
 </body>
 </html>
